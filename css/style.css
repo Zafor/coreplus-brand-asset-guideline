@@ -152,3 +152,32 @@ h1 {
 i {
   color: #fff;
 }
+.center-content {
+  margin: auto;
+}
+
+.who-we-are {
+  border-top: 1px solid #f98731;
+  border-bottom: 1px solid #f98731;
+  padding: 50px 0px;
+}
+
+.mv-div {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #f98731;
+  padding: 15px;
+  border-bottom: 1px solid #f98731;
+}
+
+.similar-height {
+  height: 5vh;
+  margin-bottom: 10px;
+}
+
+.mv-div h5 {
+  color: #fff;
+}
+.mv-div p {
+  color: #fff;
+}
