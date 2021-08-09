@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+/* .row-flex {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 .nav-section {
   /* max-width: 1920px; */
   /* display: flex; */
@@ -141,14 +146,14 @@ h1 {
   margin-top: 50px;
 }
 
-.our-story-two a {
+.download-brandbook a {
   background-color: #f98731;
   text-decoration: none;
   padding: 20px 40px;
   border-radius: 10px;
 }
 
-.our-story-two a,
+.download-brandbook a,
 i {
   color: #fff;
 }
@@ -206,4 +211,40 @@ i {
   padding: 20px 40px;
   border-radius: 10px;
   color: #fff;
+}
+
+/* Our Values Page */
+
+.our-values-hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our-values-hero-image img {
+  width: 100%;
+}
+
+.our-values-content {
+  margin: auto;
+}
+
+.our-values {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.our-values-grid {
+  padding: 30px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.our-values-grid:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.values-icon {
+  height: 50px;
+  margin-bottom: 20px;
 }
