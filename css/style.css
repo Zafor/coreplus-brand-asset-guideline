@@ -181,3 +181,29 @@ i {
 .mv-div p {
   color: #fff;
 }
+
+.what-we-believe {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-top: 1px solid #f98731;
+  border-bottom: 1px solid #f98731;
+}
+.what-we-believe p {
+  margin-bottom: 100px;
+}
+
+.our-story-video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.our-brand-values {
+  padding-bottom: 100px;
+}
+.our-brand-values a {
+  background-color: #f98731;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: #fff;
+}
