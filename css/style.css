@@ -12,6 +12,11 @@
   flex-wrap: wrap;
 } */
 
+.header-color,
+.border-color {
+  color: #f98731;
+}
+
 .nav-section {
   /* max-width: 1920px; */
   /* display: flex; */
@@ -247,4 +252,18 @@ i {
 .values-icon {
   height: 50px;
   margin-bottom: 20px;
+}
+
+/* Brand Asset Guide Child Page */
+
+.tone-of-voice {
+  margin-top: 100px;
+}
+
+.bg-spacing {
+  margin-bottom: 100px;
+}
+
+.bg-spacing-top {
+  margin-top: 100px;
 }
