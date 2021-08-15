@@ -278,3 +278,28 @@ i {
 .practice-management {
   margin: auto;
 }
+.main-colors {
+  display: flex;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.color-box {
+  height: 266px;
+  width: 266px;
+  background-color: #ed135d;
+}
+
+.color-codes {
+  margin: auto;
+}
+
+.color-code {
+  margin-bottom: 30px;
+}
+
+.color-box-two {
+  height: 266px;
+  width: 266px;
+  background-color: #f47424;
+}
