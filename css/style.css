@@ -57,11 +57,11 @@
   padding-top: 10px;
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .menu {
     display: none;
   }
-}
+} */
 
 #btn-class {
   color: #fff;
@@ -143,6 +143,7 @@ h1 {
 .our-story-hero-image {
   max-width: 680px;
   margin: auto;
+  padding-top: 50px;
 }
 .our-story-hero-image img {
   width: 100%;
@@ -155,11 +156,11 @@ h1 {
 }
 
 .our-story-content {
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
-.section-spacing {
+/* .section-spacing {
   padding: 50px 0px;
-}
+} */
 
 .download-brandbook {
   margin-top: 50px;
@@ -181,9 +182,16 @@ i {
 }
 
 .who-we-are {
-  border-top: 1px solid #f98731;
-  border-bottom: 1px solid #f98731;
+  /* border-top: 1px solid #f98731;
+  border-bottom: 1px solid #f98731; */
   padding: 50px 0px;
+}
+
+.who-we-are-image {
+  max-width: 500px;
+}
+.who-we-are-image img {
+  width: 100%;
 }
 
 .mv-div {
@@ -209,8 +217,6 @@ i {
 .what-we-believe {
   padding-top: 100px;
   padding-bottom: 100px;
-  border-top: 1px solid #f98731;
-  border-bottom: 1px solid #f98731;
 }
 .what-we-believe p {
   margin-bottom: 100px;
@@ -219,6 +225,12 @@ i {
 .our-story-video {
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 945px;
+  margin: auto;
+}
+
+.our-story-video img {
+  width: 100%;
 }
 
 .our-brand-values {
