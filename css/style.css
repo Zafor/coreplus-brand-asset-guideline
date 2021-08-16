@@ -1,8 +1,24 @@
+@font-face {
+  font-family: Jenna Sue;
+  src: url("/fonts/JennaSue.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Museo Sans;
+  src: url("/fonts/museo_sans/MuseoSans-100.otf") format("opentype"),
+    url("/fonts/museo_sans/MuseoSans-300.otf") format("opentype"),
+    url("/fonts/museo_sans/MuseoSans-500.otf") format("opentype"),
+    url("/fonts/museo_sans/MuseoSans-700.otf") format("opentype");
+
+  font-weight: 100, 300, 500, 700;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Museo Sans, sans-serif;
   color: #7f7f7f;
   scroll-behavior: smooth;
 }
@@ -78,11 +94,17 @@
 }
 
 .tandc-ip {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 h1 {
   color: #f98731;
+  font-weight: 600;
+  font-size: 56px;
   /* margin: auto; */
+}
+
+.font-size-56 {
+  font-size: 56px;
 }
 
 .tandc-tm {
@@ -199,6 +221,16 @@ i {
   border-bottom: 1px solid #f98731;
 }
 
+@media screen and (max-width: 767px) {
+  .our-mission {
+    margin-bottom: -40px;
+  }
+}
+
+.bg-padding-top {
+  padding-top: 100px;
+}
+
 .similar-height {
   height: 5vh;
   margin-bottom: 10px;
@@ -213,7 +245,9 @@ i {
 
 .what-we-believe {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-bottom: 100px; */
 }
 .what-we-believe p {
   margin-bottom: 100px;
@@ -252,6 +286,12 @@ i {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .our-values-hero-image {
+    margin-top: 50px;
+  }
+}
+
 .our-values-content {
   margin: auto;
 }
@@ -278,6 +318,22 @@ i {
 }
 
 /* Brand Asset Guide Child Page */
+
+.primary-logo-suite {
+  max-width: 700px;
+}
+
+.primary-logo-suite img {
+  width: 100%;
+}
+
+.secondary-logo {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+.secondary-logo img {
+  width: 100%;
+}
 
 .tone-of-voice {
   margin-top: 100px;
@@ -380,7 +436,7 @@ i {
 }
 .figma-ps-xd {
   margin-left: 10px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 /* .ba-child-page {
@@ -411,4 +467,48 @@ i {
 .bag-sidebar ul,
 li {
   list-style-type: none;
+}
+
+.illustration-element {
+  max-width: 300px;
+}
+
+.illustration-element img {
+  width: 100%;
+}
+
+.facebook-creative {
+  max-width: 800px;
+}
+
+.facebook-creative img {
+  width: 100%;
+}
+.linkedin-creative {
+  max-width: 800px;
+}
+
+.linkedin-creative img {
+  width: 100%;
+}
+.instagram-creative {
+  max-width: 800px;
+}
+
+.instagram-creative img {
+  width: 100%;
+}
+.twitter-creative {
+  max-width: 800px;
+}
+
+.twitter-creative img {
+  width: 100%;
+}
+.blog-layout {
+  max-width: 800px;
+}
+
+.blog-layout img {
+  width: 100%;
 }
